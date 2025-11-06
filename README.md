@@ -32,6 +32,35 @@ This repository contains an Expo-powered React Native prototype for the Gallivan
 
 3. Use the Expo Go app or an emulator/simulator to preview the experience.
 
+## Mac terminal command reference
+
+If you are developing on macOS, these are the most common commands you will run in Terminal:
+
+```bash
+# (Optional) Install Node.js 18 with Homebrew if you don't already have it.
+brew install node@18
+
+# Navigate to the project folder.
+cd /path/to/Gallivant
+
+# Install JavaScript dependencies.
+npm install
+
+# Launch the Expo development server (press "i" for iOS simulator, "a" for Android emulator).
+npm run start
+
+# Open the native iOS build in Xcode's simulator (requires Xcode CLI tools).
+npm run ios
+
+# Open the native Android build (requires Android Studio & an emulator configured).
+npm run android
+
+# Render the app in a desktop browser instead of a device.
+npm run web
+
+# Stop any running command with Control+C when you're done testing.
+```
+
 ### Want to launch it in a browser?
 
 Expo can render the same experience in a web tab for quick testing:
