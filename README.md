@@ -2,6 +2,12 @@
 
 This repository contains an Expo-powered React Native prototype for the Gallivant mobile experience. The first feature delivered here is a **Movie Showtime Browser** that aggregates local screenings and opens ticketing partners inside an in-app browser.
 
+## In plain language
+
+- Think of the app as a single place to browse what's playing in nearby theaters.
+- When you tap "Buy tickets," the app simply opens the partner's website (Fandango, Atom Tickets, etc.) in a mini browser that lives inside the app—no special ticketing contracts are required to get started.
+- You can swap the sample data with real listings later without redesigning the screens.
+
 ## Features
 
 - Movie discovery cards with poster art, synopsis, runtime, and ratings.
@@ -25,6 +31,16 @@ This repository contains an Expo-powered React Native prototype for the Gallivan
    ```
 
 3. Use the Expo Go app or an emulator/simulator to preview the experience.
+
+### Want to launch it in a browser?
+
+Expo can render the same experience in a web tab for quick testing:
+
+```bash
+npm run web
+```
+
+This spins up a local development server and opens the app in your default browser. Interactive features (like the in-app ticketing WebView) appear as standard web modals so you can click through everything without a phone or simulator.
 
 ## Customising data
 
